@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="box-sizing: border-box; padding: 0; margin: 0;">
+    <h1 style="color: white; background-color: blue;">Tutorial de MySQL</h1>
+    <header>
+        <nav>
+            <ul id="indice">
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#show_databases">show databases</a></li>
+                <li><a href="#tabla_mostrar_campos">Creación de una tabla y mostrar sus campos</a></li>
+                <li><a href="#registros_tabla_recuperacion">Carga de registros a una tabla y su recuperación</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="app">
+        <div class="introduccion">
+            <h1>Introducción</h1>
+            <a href="#indice">Ir al indice</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat et adipisci exercitationem totam a quas tenetur laudantium, quis praesentium fugit voluptatum nobis similique cupiditate id nostrum minus sequi sunt eos.
+            Repudiandae, perferendis distinctio illum accusamus ipsa cumque esse natus accusantium ea asperiores a iure quos suscipit libero nam laudantium iusto, incidunt eius voluptates. Voluptate odio doloribus quo optio laudantium qui.
+            Accusantium sint dignissimos nostrum quidem dolore a illum impedit dolorem deleniti suscipit. Doloribus cupiditate nulla dicta praesentium quaerat consequuntur! Reprehenderit consequuntur nobis neque sequi doloremque id totam accusantium atque unde.
+            Aspernatur minus molestias veritatis repudiandae ipsa velit saepe numquam, quibusdam vel similique soluta optio obcaecati corrupti cupiditate atque, consequatur quas. Consequatur, officia officiis? Suscipit excepturi iure incidunt omnis, nisi culpa.
+            Mollitia non, hic doloremque tenetur eius magnam voluptatum enim, eos sequi ratione assumenda? Placeat nemo ipsum commodi atque adipisci autem, cupiditate perspiciatis quibusdam dicta deleniti nulla esse doloremque voluptates neque?
+            Pariatur, architecto dolorem id exercitationem molestiae magnam nostrum nemo autem ea obcaecati dolor doloremque vero eius tempore error. Odit ducimus vel nesciunt magnam dolorum aut vitae incidunt sequi reprehenderit illum.
+            Unde, iusto modi reiciendis deleniti consectetur illum obcaecati molestias recusandae. Eveniet ratione reprehenderit quibusdam voluptatibus ipsum et ducimus incidunt saepe consequuntur ea eum blanditiis hic ipsa, numquam praesentium impedit a?
+            Necessitatibus quia aspernatur repellendus enim autem aperiam repudiandae quibusdam eveniet similique in natus nobis iste ad perferendis facere explicabo placeat, nisi, dignissimos ab soluta qui voluptas fugit, architecto dolorem! Odio!
+            Ex rerum unde reiciendis voluptatem ab laudantium cum, doloremque iste ea placeat pariatur repellendus assumenda tempora at, eveniet vero laboriosam nulla provident maxime. Voluptatum doloribus quis ipsa quia pariatur voluptas.
+            Dolore molestiae delectus porro! Fugit facere molestias inventore eaque aliquid perferendis cumque eius nulla, unde, officiis id alias ullam, tenetur itaque nisi nihil quod quo dolores numquam obcaecati. Laborum, commodi?</p>
+        </div>
+
+        <div class="show_databases" id="show_databases">
+            <h1>show databases</h1>
+            <a href="#indice">Ir al indice</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat et adipisci exercitationem totam a quas tenetur laudantium, quis praesentium fugit voluptatum nobis similique cupiditate id nostrum minus sequi sunt eos.
+            Repudiandae, perferendis distinctio illum accusamus ipsa cumque esse natus accusantium ea asperiores a iure quos suscipit libero nam laudantium iusto, incidunt eius voluptates. Voluptate odio doloribus quo optio laudantium qui.
+            Accusantium sint dignissimos nostrum quidem dolore a illum impedit dolorem deleniti suscipit. Doloribus cupiditate nulla dicta praesentium quaerat consequuntur! Reprehenderit consequuntur nobis neque sequi doloremque id totam accusantium atque unde.
+            Aspernatur minus molestias veritatis repudiandae ipsa velit saepe numquam, quibusdam vel similique soluta optio obcaecati corrupti cupiditate atque, consequatur quas. Consequatur, officia officiis? Suscipit excepturi iure incidunt omnis, nisi culpa.
+            Mollitia non, hic doloremque tenetur eius magnam voluptatum enim, eos sequi ratione assumenda? Placeat nemo ipsum commodi atque adipisci autem, cupiditate perspiciatis quibusdam dicta deleniti nulla esse doloremque voluptates neque?
+            Pariatur, architecto dolorem id exercitationem molestiae magnam nostrum nemo autem ea obcaecati dolor doloremque vero eius tempore error. Odit ducimus vel nesciunt magnam dolorum aut vitae incidunt sequi reprehenderit illum.
+            Unde, iusto modi reiciendis deleniti consectetur illum obcaecati molestias recusandae. Eveniet ratione reprehenderit quibusdam voluptatibus ipsum et ducimus incidunt saepe consequuntur ea eum blanditiis hic ipsa, numquam praesentium impedit a?
+            Necessitatibus quia aspernatur repellendus enim autem aperiam repudiandae quibusdam eveniet similique in natus nobis iste ad perferendis facere explicabo placeat, nisi, dignissimos ab soluta qui voluptas fugit, architecto dolorem! Odio!
+            Ex rerum unde reiciendis voluptatem ab laudantium cum, doloremque iste ea placeat pariatur repellendus assumenda tempora at, eveniet vero laboriosam nulla provident maxime. Voluptatum doloribus quis ipsa quia pariatur voluptas.
+            Dolore molestiae delectus porro! Fugit facere molestias inventore eaque aliquid perferendis cumque eius nulla, unde, officiis id alias ullam, tenetur itaque nisi nihil quod quo dolores numquam obcaecati. Laborum, commodi?</p>
+        </div>
+
+        <div class="tabla_mostrar_campos" id="tabla_mostrar_campos">
+            <h1>Creación de una tabla y mostrar sus campos</h1>
+            <a href="#indice">Ir al indice</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat et adipisci exercitationem totam a quas tenetur laudantium, quis praesentium fugit voluptatum nobis similique cupiditate id nostrum minus sequi sunt eos.
+            Repudiandae, perferendis distinctio illum accusamus ipsa cumque esse natus accusantium ea asperiores a iure quos suscipit libero nam laudantium iusto, incidunt eius voluptates. Voluptate odio doloribus quo optio laudantium qui.
+            Accusantium sint dignissimos nostrum quidem dolore a illum impedit dolorem deleniti suscipit. Doloribus cupiditate nulla dicta praesentium quaerat consequuntur! Reprehenderit consequuntur nobis neque sequi doloremque id totam accusantium atque unde.
+            Aspernatur minus molestias veritatis repudiandae ipsa velit saepe numquam, quibusdam vel similique soluta optio obcaecati corrupti cupiditate atque, consequatur quas. Consequatur, officia officiis? Suscipit excepturi iure incidunt omnis, nisi culpa.
+            Mollitia non, hic doloremque tenetur eius magnam voluptatum enim, eos sequi ratione assumenda? Placeat nemo ipsum commodi atque adipisci autem, cupiditate perspiciatis quibusdam dicta deleniti nulla esse doloremque voluptates neque?
+            Pariatur, architecto dolorem id exercitationem molestiae magnam nostrum nemo autem ea obcaecati dolor doloremque vero eius tempore error. Odit ducimus vel nesciunt magnam dolorum aut vitae incidunt sequi reprehenderit illum.
+            Unde, iusto modi reiciendis deleniti consectetur illum obcaecati molestias recusandae. Eveniet ratione reprehenderit quibusdam voluptatibus ipsum et ducimus incidunt saepe consequuntur ea eum blanditiis hic ipsa, numquam praesentium impedit a?
+            Necessitatibus quia aspernatur repellendus enim autem aperiam repudiandae quibusdam eveniet similique in natus nobis iste ad perferendis facere explicabo placeat, nisi, dignissimos ab soluta qui voluptas fugit, architecto dolorem! Odio!
+            Ex rerum unde reiciendis voluptatem ab laudantium cum, doloremque iste ea placeat pariatur repellendus assumenda tempora at, eveniet vero laboriosam nulla provident maxime. Voluptatum doloribus quis ipsa quia pariatur voluptas.
+            Dolore molestiae delectus porro! Fugit facere molestias inventore eaque aliquid perferendis cumque eius nulla, unde, officiis id alias ullam, tenetur itaque nisi nihil quod quo dolores numquam obcaecati. Laborum, commodi?</p>
+        </div>
+
+        <div class="registros_tabla_recuperacion" id="registros_tabla_recuperacion">
+            <h1>Carga de registros a una tabla y su recuperación</h1>
+            <a href="#indice">Ir al indice</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat et adipisci exercitationem totam a quas tenetur laudantium, quis praesentium fugit voluptatum nobis similique cupiditate id nostrum minus sequi sunt eos.
+            Repudiandae, perferendis distinctio illum accusamus ipsa cumque esse natus accusantium ea asperiores a iure quos suscipit libero nam laudantium iusto, incidunt eius voluptates. Voluptate odio doloribus quo optio laudantium qui.
+            Accusantium sint dignissimos nostrum quidem dolore a illum impedit dolorem deleniti suscipit. Doloribus cupiditate nulla dicta praesentium quaerat consequuntur! Reprehenderit consequuntur nobis neque sequi doloremque id totam accusantium atque unde.
+            Aspernatur minus molestias veritatis repudiandae ipsa velit saepe numquam, quibusdam vel similique soluta optio obcaecati corrupti cupiditate atque, consequatur quas. Consequatur, officia officiis? Suscipit excepturi iure incidunt omnis, nisi culpa.
+            Mollitia non, hic doloremque tenetur eius magnam voluptatum enim, eos sequi ratione assumenda? Placeat nemo ipsum commodi atque adipisci autem, cupiditate perspiciatis quibusdam dicta deleniti nulla esse doloremque voluptates neque?
+            Pariatur, architecto dolorem id exercitationem molestiae magnam nostrum nemo autem ea obcaecati dolor doloremque vero eius tempore error. Odit ducimus vel nesciunt magnam dolorum aut vitae incidunt sequi reprehenderit illum.
+            Unde, iusto modi reiciendis deleniti consectetur illum obcaecati molestias recusandae. Eveniet ratione reprehenderit quibusdam voluptatibus ipsum et ducimus incidunt saepe consequuntur ea eum blanditiis hic ipsa, numquam praesentium impedit a?
+            Necessitatibus quia aspernatur repellendus enim autem aperiam repudiandae quibusdam eveniet similique in natus nobis iste ad perferendis facere explicabo placeat, nisi, dignissimos ab soluta qui voluptas fugit, architecto dolorem! Odio!
+            Ex rerum unde reiciendis voluptatem ab laudantium cum, doloremque iste ea placeat pariatur repellendus assumenda tempora at, eveniet vero laboriosam nulla provident maxime. Voluptatum doloribus quis ipsa quia pariatur voluptas.
+            Dolore molestiae delectus porro! Fugit facere molestias inventore eaque aliquid perferendis cumque eius nulla, unde, officiis id alias ullam, tenetur itaque nisi nihil quod quo dolores numquam obcaecati. Laborum, commodi?</p>
+        </div>
+    </div>
+</body>
+
+
+<style>
+    * {
+        margin: 0;
+    }
+</style>
+</html>
